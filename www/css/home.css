@@ -1,0 +1,51 @@
+* {
+    color: #fff;
+}
+
+body {
+    background-image: url('../img/home background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main {
+    margin-top: 1.8em;
+}
+
+.introduce p {
+    width: 90%;
+    font-weight: 480;
+}
+
+#content {
+    width: 65%;
+    padding: 0.3em 0.7em;
+    border-radius: 17px;
+    color: #000;
+    font-weight: 450;
+}
+
+#content:focus {
+    outline: none;
+}
+
+#generate {
+    width: 25%;
+    padding: 0.3em 0.5em;
+    border-radius: 15px;
+    color: #fff;
+    background: #304ffe;
+    font-weight: bold;
+}
+
+#generate:focus {
+    outline: none;
+}
+
+#qrcode {
+    display: block;
+    width: 100%;
+    margin-top: 0.7em;
+    border-radius: 2px solid #000;
+}
